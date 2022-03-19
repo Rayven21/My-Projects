@@ -1,0 +1,271 @@
+/*profile css*/
+
+/*footer*/
+
+html body{
+	background-color: #ECE9E8;	
+}
+footer {
+
+    background: #302D2D;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3 {
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p {
+
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+.socials {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+
+    margin: 0 10px
+
+}
+
+.socials a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.socials a i {
+
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+
+    color: aqua;
+
+}
+
+.emailcu {
+
+    transition: color .4s ease;
+
+}
+
+.emailcu:hover {
+
+
+    color: aqua;
+}
+
+/* end of footer*/
+.profile{
+	background-color: #ffffff;
+	margin-right: 80%;
+	text-align:center;
+	margin-top: -15%;
+}
+.info{
+	text-align:left;
+	margin-right: 24%;
+	margin-left: 350px;
+	background-color: #ffffff;
+	margin-top: -1%;
+}
+.personInfo{
+	background-color: #010203;
+	color: white;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 25px;
+	margin-right: 24%;
+	margin-left: 350px;
+	text-align:left;
+}
+.main-body {
+    padding: 20px;
+	margin-left: 15%;
+	margin-top:20px;
+    color: #1a202c;
+    background-color: #ECE9E8;	
+	
+}
+.text{
+	margin-top: -15px;
+	font-family: Courier New;
+}
+.text1{
+	font-size: 50px;
+	font-family: Courier;
+	margin-left: -30%;
+	margin-top: -400px;
+}
+.text2{
+	font-size: 25px;
+	font-family: Arial;
+	margin-left: 10px;
+}
+.profile-img{
+	margin-top: 10px;
+	border-radius: 50%;
+	margin: 50px auto;
+	position: relative;
+	border:1px solid white;
+	margin-bottom: 15px;
+}
+
+.label1{
+	background-color: #171b36;
+	color:white;
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 15px;
+    cursor: pointer;
+	margin-top: 10px;
+	margin-left: 57.5%;
+}
+.label2{
+	background-color: #171b36;
+	color:white;
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+.cover-img{
+	border: 1px solid black;
+	
+}
+.div-background{
+	background-color: #fffff;
+}
+
+.button{
+  color: #3399FF;
+  font-family: Helvetica;
+  font-size: 10pt;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #3399FF;
+  border-radius: 3px;
+  width: 85px;
+  height: 30px; 	
+  cursor: hand;	
+  margin-top: 20px;
+}
+.my_file{
+	position: absolute;
+	bottom: 0;
+	outline: none;
+	color: transparent;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px 120px;
+	cursor: pointer;
+	transition: 0.5;
+	}
+
+h4{
+	font-family: Arial;
+	font-size: 50px;
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input[type="file"] {
+	display:none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.custom-file-upload1 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 15px;
+    cursor: pointer;
+	margin-top: -50%;
+	
+}
+body {
+    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.navbar-expand-lg.navbar-light.fixed-top {
+    background: rgba(0, 0, 0, 0.9);
+}

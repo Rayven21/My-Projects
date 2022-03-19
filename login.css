@@ -1,0 +1,69 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #DBDBDB;
+    background-image: url(index_wallpapers/indexwp.jpg);
+    background-repeat: no-repeat;
+    animation: fadeIn 0.5s;
+
+}
+
+.row {
+
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+}
+
+img {
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.btn1 {
+
+    border: none;
+    background-color: black;
+    outline: none;
+    height: 50px;
+    width: 100%;;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.btn1:hover {
+
+    background: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid black;
+
+}
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}

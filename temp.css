@@ -1,0 +1,114 @@
+.selection {
+
+    float: left;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    z-index: 1001;
+
+}
+
+.selection h1 {
+
+    font-size: 30px;
+    border-bottom: 6px solid;
+
+}
+
+.btn {
+
+    border: 1px solid black;
+    padding: 20px 40px;
+    border-width: 1.5px;
+    font-size: 24px;
+    font-family: 'Encode Sans', sans-serif;
+    cursor: pointer;
+    margin: 10px;   
+    background: white;
+    transition: 0.5s;
+
+}
+
+.btn1, .btn2 {
+
+    color: black;
+
+}
+
+.btn1:hover,.btn2:hover {
+
+    color: white;
+    background-color: black;
+
+}
+
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Encode Sans', sans-serif;
+
+}
+
+.container {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+.container span {
+
+    color: black;
+    display: block;
+
+}
+
+.mainHeader {
+
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: text 2s 1;
+
+}
+
+.subHeader {
+
+    font-size: 30px;
+
+}
+
+@keyframes text {
+
+    0% {
+
+        margin-bottom: -15px;
+
+    }
+
+    30% {
+
+        letter-spacing: 20px;
+        margin-bottom: -15px
+
+    }
+
+    85% {
+
+        letter-spacing: 8px;
+        margin-bottom: -15px;
+
+    }
+    
+}
+
+
+

@@ -1,0 +1,285 @@
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+
+.navbar-expand-lg.navbar-light.fixed-top {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+.upload-section {
+    margin-top: 40px;
+    height: 100vh;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 70px;
+}
+
+.column-1 {
+	
+
+}
+
+.column-2  {
+	
+   
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Upload Designs */
+
+.containerUpload {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 15px;
+
+}
+
+.h2upload {
+
+    margin-bottom: 10px;
+    padding: 20px;
+	text-align: center;
+
+}
+
+.uploadTextbox {
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+	width: 75%;
+
+}
+
+.containerButton {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.upButton {
+
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    color: linear;
+	width:50%;
+	margin-left: 25%;
+	animation: 1s fadeIn;
+
+
+}
+
+.upButton:hover {
+
+	transition: 0.3s;
+    background: #2C2727;
+    color: white;
+    border: 1px solid black;
+
+}
+
+
+.uploadtext {
+
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.h2guide {
+
+    margin-bottom: 10px;
+    padding: 20px;
+	text-align: center;
+
+}
+
+.ulContainer {
+
+	text-align: left;
+	font-size: 16px;
+
+}
+
+.inputDiv {
+
+	margin-left: 100px;
+
+}
+
+body {
+
+	background: white;
+
+}
+
+/*footer*/
+
+footer {
+
+    background: #302D2D;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3 {
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p {
+
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+.socials {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+
+    margin: 0 10px
+
+}
+
+.socials a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.socials a i {
+
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+
+    color: aqua;
+
+}
+
+.emailcu {
+
+    transition: color .4s ease;
+
+}
+
+.emailcu:hover {
+
+
+    color: aqua;
+}
+
+/* end of footer*/
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
